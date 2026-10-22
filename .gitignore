@@ -1,0 +1,27 @@
+# Android / Gradle build outputs
+*.iml
+.gradle/
+**/build/
+**/release/
+builds/
+**/captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+**/local.properties
+
+# Android Studio / IntelliJ IDEA
+.idea/
+*.jks
+*.keystore
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Historical prototypes & private academic documents (excluded from public repo)
+archive/
+docs/
+diagrams/
+marketing-videos/
+marketing-kit/

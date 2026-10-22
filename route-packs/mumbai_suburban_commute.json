@@ -1,0 +1,77 @@
+{
+  "app": "StopWake",
+  "version": 1,
+  "exportedAt": 1760886000000,
+  "savedDestinations": [
+    {
+      "id": "mum_stop_1",
+      "name": "Dadar Railway Station",
+      "address": "Western & Central Line Interchange, Dadar, Mumbai",
+      "latitude": 19.018512,
+      "longitude": 72.843218,
+      "alertDistanceMeters": 750,
+      "alertType": 3,
+      "reminderNote": "Move towards the door early before platform arrival",
+      "emergencyContact": "",
+      "isFavorite": true,
+      "timestamp": 1760880000000
+    },
+    {
+      "id": "mum_stop_2",
+      "name": "Andheri Station",
+      "address": "Western Line & Metro Line 1, Andheri, Mumbai",
+      "latitude": 19.119677,
+      "longitude": 72.846482,
+      "alertDistanceMeters": 700,
+      "alertType": 4,
+      "reminderNote": "East skywalk connects directly to Metro Line 1",
+      "emergencyContact": "",
+      "isFavorite": true,
+      "timestamp": 1760880100000
+    },
+    {
+      "id": "mum_stop_3",
+      "name": "Thane Railway Station",
+      "address": "Central Line Fast Corridor, Thane West",
+      "latitude": 19.186045,
+      "longitude": 72.975912,
+      "alertDistanceMeters": 850,
+      "alertType": 3,
+      "reminderNote": "Platform 2/4 exit towards SATIS bus deck",
+      "emergencyContact": "",
+      "isFavorite": true,
+      "timestamp": 1760880200000
+    },
+    {
+      "id": "mum_stop_4",
+      "name": "Churchgate Terminus",
+      "address": "Maharshi Karve Road, Churchgate, Mumbai",
+      "latitude": 18.935214,
+      "longitude": 72.827256,
+      "alertDistanceMeters": 600,
+      "alertType": 4,
+      "reminderNote": "South subway exit towards Nariman Point",
+      "emergencyContact": "",
+      "isFavorite": false,
+      "timestamp": 1760880300000
+    }
+  ],
+  "commuteSchedules": [
+    {
+      "id": "mum_sched_1",
+      "label": "Morning Local to Andheri",
+      "destinationName": "Andheri Station",
+      "destinationLat": 19.119677,
+      "destinationLng": 72.846482,
+      "alertDistanceMeters": 700,
+      "alertTypeValue": 4,
+      "reminderNote": "East skywalk connects directly to Metro Line 1",
+      "startHour": 8,
+      "startMinute": 0,
+      "endHour": 9,
+      "endMinute": 15,
+      "daysOfWeek": [1, 2, 3, 4, 5],
+      "isEnabled": false
+    }
+  ]
+}

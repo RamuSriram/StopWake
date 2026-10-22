@@ -1,0 +1,12 @@
+StopWake is a free, open-source GPS location alarm and destination wake-up alarm for commuters using city buses, suburban trains, and surface/elevated metros. Unlike regular clock alarms that fail when traffic delays vary by 20–40 minutes, StopWake tracks your live GPS distance in the background and wakes you up right before your stop.
+
+Key Features:
+
+• Smart Activity-Aware Wake-Up Alarm: Detects whether your phone screen is unlocked and in your hand. If you are actively using your phone, StopWake vibrates gently without embarrassing you in public; if your screen is locked in your pocket, it triggers a full-volume wake-up alarm on the lock screen.
+• Dual Distance & Lead-Time Triggers: Configure your bus stop or train station alarm radius from 50m to 5,000m, or set an advance ETA lead-time window (2, 5, or 10 minutes) calculated dynamically from your live vehicle speed.
+• Commute Schedules & One-Tap Reminders: Set recurring day-of-week schedules to arm and disarm your daily commute automatically (with a one-tap notification prompt fallback when Android 12–15 background restrictions apply).
+• Offline OpenStreetMap Caching: Built with OSMDroid and Android's native LocationManager (GPS, Network, and Android 12+ Fused providers) with zero Google Play Services dependencies. Pre-cache map tiles on demand for low-connectivity highway, suburban rail, and surface/elevated metro routes (note: live GPS tracking requires satellite or station cell/Wi-Fi signal and cannot update inside deep underground tunnels without signal).
+• Adaptive Battery-Saving GPS: Polls every 10 seconds when far away (>3 km) and scales up to 1.5-second high-precision updates inside the final 1 km approach.
+• Portable Route Sharing (.json): Export and import your saved stops and schedules as JSON files to share with friends, classmates, or office shuttle groups on the same transit route.
+• Commuter Safety Net: Optional emergency SMS alert with a live coordinate map link if you sleep through the alarm or overshoot your stop.
+• 100% Privacy & Zero Ads: All location tracking, saved stops, and schedules stay locally on your phone. No accounts, no analytics, and no ads.

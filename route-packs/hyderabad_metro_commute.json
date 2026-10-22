@@ -1,0 +1,106 @@
+{
+  "app": "StopWake",
+  "version": 1,
+  "exportedAt": 1760886000000,
+  "savedDestinations": [
+    {
+      "id": "hyd_stop_1",
+      "name": "Raidurg Metro Station",
+      "address": "Mindspace Junction, HITEC City, Hyderabad",
+      "latitude": 17.442246,
+      "longitude": 78.377213,
+      "alertDistanceMeters": 500,
+      "alertType": 4,
+      "reminderNote": "Exit via Gate B towards Mindspace Skywalk",
+      "emergencyContact": "",
+      "isFavorite": true,
+      "timestamp": 1760880000000
+    },
+    {
+      "id": "hyd_stop_2",
+      "name": "Ameerpet Metro Interchange",
+      "address": "Yellareddyguda, Ameerpet, Hyderabad",
+      "latitude": 17.435714,
+      "longitude": 78.444582,
+      "alertDistanceMeters": 450,
+      "alertType": 4,
+      "reminderNote": "Change between Red Line and Blue Line on the middle concourse",
+      "emergencyContact": "",
+      "isFavorite": true,
+      "timestamp": 1760880100000
+    },
+    {
+      "id": "hyd_stop_3",
+      "name": "Secunderabad Junction",
+      "address": "Station Road, Regimental Bazaar, Secunderabad",
+      "latitude": 17.434412,
+      "longitude": 78.501324,
+      "alertDistanceMeters": 800,
+      "alertType": 3,
+      "reminderNote": "Platform 10 exit near the East Metro footbridge",
+      "emergencyContact": "",
+      "isFavorite": true,
+      "timestamp": 1760880200000
+    },
+    {
+      "id": "hyd_stop_4",
+      "name": "JNTU College Metro",
+      "address": "NH 65, Kukatpally, Hyderabad",
+      "latitude": 17.498621,
+      "longitude": 78.389105,
+      "alertDistanceMeters": 400,
+      "alertType": 3,
+      "reminderNote": "Wake up before the main Kukatpally flyover",
+      "emergencyContact": "",
+      "isFavorite": false,
+      "timestamp": 1760880300000
+    },
+    {
+      "id": "hyd_stop_5",
+      "name": "MGBS Metro & Bus Terminus",
+      "address": "Imlibun, Gowliguda, Hyderabad",
+      "latitude": 17.378205,
+      "longitude": 78.484112,
+      "alertDistanceMeters": 600,
+      "alertType": 4,
+      "reminderNote": "Take the skywalk directly into Mahatma Gandhi Bus Station",
+      "emergencyContact": "",
+      "isFavorite": false,
+      "timestamp": 1760880400000
+    }
+  ],
+  "commuteSchedules": [
+    {
+      "id": "hyd_sched_1",
+      "label": "Morning Metro to HITEC City",
+      "destinationName": "Raidurg Metro Station",
+      "destinationLat": 17.442246,
+      "destinationLng": 78.377213,
+      "alertDistanceMeters": 500,
+      "alertTypeValue": 4,
+      "reminderNote": "Exit via Gate B towards Mindspace Skywalk",
+      "startHour": 8,
+      "startMinute": 15,
+      "endHour": 9,
+      "endMinute": 30,
+      "daysOfWeek": [1, 2, 3, 4, 5],
+      "isEnabled": false
+    },
+    {
+      "id": "hyd_sched_2",
+      "label": "Evening Return to Kukatpally",
+      "destinationName": "JNTU College Metro",
+      "destinationLat": 17.498621,
+      "destinationLng": 78.389105,
+      "alertDistanceMeters": 400,
+      "alertTypeValue": 3,
+      "reminderNote": "Wake up before the main Kukatpally flyover",
+      "startHour": 17,
+      "startMinute": 45,
+      "endHour": 19,
+      "endMinute": 15,
+      "daysOfWeek": [1, 2, 3, 4, 5],
+      "isEnabled": false
+    }
+  ]
+}

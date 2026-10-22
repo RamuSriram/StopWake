@@ -1,0 +1,6 @@
+• Initial public release of StopWake v1.0.
+• Smart wake-up mode (gentle vibration when screen is unlocked vs. full alarm when locked).
+• Dark OpenStreetMap view with offline tile caching and custom wake-up radius (50m–5,000m).
+• Automatic recurring day-of-week commute schedules.
+• JSON stop and schedule sharing for friends on the same route.
+• Optional emergency SMS safety net on overshoot.

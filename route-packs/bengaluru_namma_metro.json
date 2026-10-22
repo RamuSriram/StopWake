@@ -1,0 +1,77 @@
+{
+  "app": "StopWake",
+  "version": 1,
+  "exportedAt": 1760886000000,
+  "savedDestinations": [
+    {
+      "id": "blr_stop_1",
+      "name": "Majestic (Nadaprabhu Kempegowda)",
+      "address": "Kempegowda Bus Station & Metro Interchange, Bengaluru",
+      "latitude": 12.975662,
+      "longitude": 77.572821,
+      "alertDistanceMeters": 500,
+      "alertType": 4,
+      "reminderNote": "Purple & Green Line interchange / KSR Bengaluru Railway exit",
+      "emergencyContact": "",
+      "isFavorite": true,
+      "timestamp": 1760880000000
+    },
+    {
+      "id": "blr_stop_2",
+      "name": "Whitefield (Kadugodi) Metro",
+      "address": "Whitefield Main Road, Kadugodi, Bengaluru",
+      "latitude": 12.995681,
+      "longitude": 77.757612,
+      "alertDistanceMeters": 600,
+      "alertType": 4,
+      "reminderNote": "Exit towards ITPL shuttle bay & Kadugodi bridge",
+      "emergencyContact": "",
+      "isFavorite": true,
+      "timestamp": 1760880100000
+    },
+    {
+      "id": "blr_stop_3",
+      "name": "Indiranagar Metro Station",
+      "address": "CMH Road, Indiranagar, Bengaluru",
+      "latitude": 12.978341,
+      "longitude": 77.638654,
+      "alertDistanceMeters": 450,
+      "alertType": 4,
+      "reminderNote": "Exit towards 100 Feet Road junction",
+      "emergencyContact": "",
+      "isFavorite": true,
+      "timestamp": 1760880200000
+    },
+    {
+      "id": "blr_stop_4",
+      "name": "Silk Board Junction",
+      "address": "Outer Ring Road & Hosur Road, Bengaluru",
+      "latitude": 12.917652,
+      "longitude": 77.623341,
+      "alertDistanceMeters": 550,
+      "alertType": 3,
+      "reminderNote": "Alight before the ORR flyover ramp",
+      "emergencyContact": "",
+      "isFavorite": false,
+      "timestamp": 1760880300000
+    }
+  ],
+  "commuteSchedules": [
+    {
+      "id": "blr_sched_1",
+      "label": "Morning Purple Line to Whitefield",
+      "destinationName": "Whitefield (Kadugodi) Metro",
+      "destinationLat": 12.995681,
+      "destinationLng": 77.757612,
+      "alertDistanceMeters": 600,
+      "alertTypeValue": 4,
+      "reminderNote": "Exit towards ITPL shuttle bay",
+      "startHour": 8,
+      "startMinute": 30,
+      "endHour": 9,
+      "endMinute": 45,
+      "daysOfWeek": [1, 2, 3, 4, 5],
+      "isEnabled": false
+    }
+  ]
+}

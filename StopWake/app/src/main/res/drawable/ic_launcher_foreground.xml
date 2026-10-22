@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Ground Arrival Pulse Ring Beneath Pin Tip -->
+    <path
+        android:fillColor="#3310B981"
+        android:pathData="M38,81a16,4.2 0,1 0,32 0a16,4.2 0,1 0,-32 0" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M42,81a12,3 0,1 0,24 0a12,3 0,1 0,-24 0"
+        android:strokeWidth="1.4"
+        android:strokeColor="#8834D399" />
+
+    <!-- Outer Acoustic / Wake-Up Alarm Waves (Left & Right) -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M29.5,33 C23.5,39.5 23.5,50.5 29.5,57"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:strokeColor="#CC38BDF8" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M24,28.5 C16,37.5 16,52.5 24,61.5"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:strokeColor="#7738BDF8" />
+
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M78.5,33 C84.5,39.5 84.5,50.5 78.5,57"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:strokeColor="#CC34D399" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M84,28.5 C92,37.5 92,52.5 84,61.5"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:strokeColor="#7734D399" />
+
+    <!-- Main Destination Pin Silhouette (Crisp White with Ice Gradient) -->
+    <path android:pathData="M54,23 C42.4,23 33,32.4 33,44 C33,57.8 54,79.5 54,79.5 C54,79.5 75,57.8 75,44 C75,32.4 65.6,23 54,23 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="36"
+                android:startY="24"
+                android:endX="72"
+                android:endY="78"
+                android:type="linear">
+                <item
+                    android:color="#FFFFFF"
+                    android:offset="0.0" />
+                <item
+                    android:color="#E0F2FE"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner Emerald-Blue Geofence Core Inside Pin Head -->
+    <path android:pathData="M54,44m-14.5,0a14.5,14.5 0,1 1,29 0a14.5,14.5 0,1 1,-29 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="40"
+                android:startY="30"
+                android:endX="68"
+                android:endY="58"
+                android:type="linear">
+                <item
+                    android:color="#10B981"
+                    android:offset="0.0" />
+                <item
+                    android:color="#059669"
+                    android:offset="0.55" />
+                <item
+                    android:color="#1D4ED8"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Wake-Up Alarm Bell Silhouette Inside the Geofence Core -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,34.2 C52.9,34.2 52,35.1 52,36.2 L52,36.7 C48.9,37.5 46.8,40.3 46.8,43.7 L46.8,47.5 L45,49.3 L45,50.5 L63,50.5 L63,49.3 L61.2,47.5 L61.2,43.7 C61.2,40.3 59.1,37.5 56,36.7 L56,36.2 C56,35.1 55.1,34.2 54,34.2 Z M51.6,51.7 C51.6,53 52.7,54.1 54,54.1 C55.3,54.1 56.4,53 56.4,51.7 L51.6,51.7 Z" />
+</vector>
